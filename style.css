@@ -1,3 +1,4 @@
+
 body {
     background-color: hsl(217, 54%, 11%);
     margin: 0;
@@ -30,7 +31,6 @@ img {
     border-radius: 10px;
 }
 img:hover {
-    background-color: rgb(199, 235, 236);
     cursor: pointer;
 }
 .text {
@@ -40,6 +40,14 @@ img:hover {
 #title {
     color: white;
     font-family: 'Outfit', sans-serif;
+}
+#title:hover {
+    color:cyan;
+    cursor: pointer;
+}
+#title:active {
+    color:cyan;
+    cursor: pointer;
 }
 .desc {
     color: gray;
@@ -89,7 +97,14 @@ hr {
 #name {
     color: white;
 }
-
+#name:hover {
+    color:cyan;
+    cursor: pointer;
+}
+#name:active {
+    color:cyan;
+    cursor: pointer;
+}
 .attribution { 
     display: inline;
     font-size: 11px; 
@@ -100,6 +115,29 @@ hr {
     color: hsl(228, 45%, 44%); 
 }
 
-
-
-
+/* Tablet screens*/
+@media screen and (max-width: 700px) {
+    .product-container {
+        max-width: 700px;
+        min-height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nft-card {
+     margin: 50px auto;
+    } 
+ }
+/* Mobile Responsiveness (Phone screens) */
+@media screen and (max-width: 375px) {
+    .product-container {
+        max-width: 375px;
+        min-height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nft-card {
+     margin: 50px auto;
+    } 
+ }
