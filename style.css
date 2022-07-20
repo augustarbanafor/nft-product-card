@@ -145,13 +145,16 @@ hr {
        } 
     .image {
         margin-top: 1.3rem;
-        width: 17.5rem;
+        width: 16.5rem;
         height: 16rem;
     }
     img {
         width: 100%;
         height: 100%;
         border-radius: 10px;
+    }
+    .text {
+        width: 82%;
     }
     .purchase-detail {
         display: flex;
