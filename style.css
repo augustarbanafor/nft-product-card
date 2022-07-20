@@ -19,11 +19,12 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+    border: 0.3px solid hsl(217, 54%, 11%);
 }
 .image {
     margin-top: 10px;
-    width: 20rem;
-    height: 50%;
+    width: 19rem;
+    height: 17rem;
 }
 img {
     width: 100%;
@@ -75,6 +76,7 @@ img:hover {
 }
 hr {
     border-top: 0 groove hsl(215, 32%, 27%);
+    transform: translateY(-10px);
 }
 .creation {
     margin-bottom: 1.5rem;
@@ -132,18 +134,19 @@ hr {
 @media screen and (max-width: 375px) {
     .product-container {
         max-width: 375px;
-        min-height: 90%;
+        min-height: 95vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .nft-card {
         width: 90%;
-    } 
+        height: 566px;
+       } 
     .image {
-        margin-top: 0.5rem ;
-        width: 17rem;
-        height: 50%;
+        margin-top: 1.3rem;
+        width: 17.5rem;
+        height: 16rem;
     }
     img {
         width: 100%;
